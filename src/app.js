@@ -1,3 +1,6 @@
+import "bootstrap";
+import "./style.css";
+
 let cardIcons = ["♦", "♥", "♠", "♣"];
 let cardNumb = [
   "K",
