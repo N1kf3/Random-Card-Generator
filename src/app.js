@@ -1,3 +1,6 @@
+import "bootstrap";
+import "./style.css";
+
 let cardIcons = ["♦", "♥", "♠", "♣"];
 let cardNumb = [
   "K",
@@ -21,6 +24,8 @@ window.onload = function() {
   changeIcon();
   let checkTime = document.querySelector(".checkTimer");
   checkTime.addEventListener("click", setTimer);
+  let nuevaCarta = document.querySelector("#butChange");
+  nuevaCarta.addEventListener("click", timerChange);
 };
 
 function changeNumber() {
